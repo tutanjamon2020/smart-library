@@ -1,0 +1,1830 @@
+02/07/2026  06:23 PM    <DIR>          applibreria
+01/18/2025  08:13 PM    <DIR>          BotAI Backup
+10/12/2025  11:31 PM    <DIR>          DRIVERS
+10/08/2024  01:31 PM    <DIR>          ESD
+04/10/2025  11:44 PM    <DIR>          inetpub
+09/29/2020  10:41 AM    <DIR>          Intel
+02/07/2026  04:39 PM    <DIR>          nmv
+02/07/2026  04:40 PM    <SYMLINKD>     nodejs [C:\nmv\v20.11.1]
+02/07/2026  04:18 PM    <DIR>          nvm4w
+12/07/2019  06:14 AM    <DIR>          PerfLogs
+12/22/2024  02:55 PM    <DIR>          Playwright from Ivana
+02/11/2025  05:00 PM    <DIR>          Postman AT Scripts
+02/07/2026  04:12 PM    <DIR>          Program Files
+11/13/2025  06:07 PM    <DIR>          Program Files (x86)
+08/10/2022  10:36 AM    <DIR>          repositories
+12/19/2022  02:44 PM    <DIR>          repository2
+09/30/2024  09:09 AM    <DIR>          SWTOOLS
+01/19/2025  12:13 AM    <DIR>          TestAIBot
+08/20/2025  11:15 AM    <DIR>          Users
+02/05/2026  04:37 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+              20 Dir(s)  113,827,680,256 bytes free
+
+C:\>cd applibreria
+
+C:\applibreria>npm run dev
+npm ERR! Missing script: "dev"
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\Damian Azagra\AppData\Local\npm-cache\_logs\2026-02-07T21_30_00_470Z-debug-0.log
+
+C:\applibreria>cd smart-library
+
+C:\applibreria\smart-library>npm run dev
+
+> smart-library@0.1.0 dev
+> next dev
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\applibreria\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles:
+   * C:\applibreria\smart-library\package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.104:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 2.6s
+○ Compiling / ...
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
+Error: Can't resolve 'tailwindcss' in 'C:\applibreria'
+    [at finishWithoutResolve (C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:586:18)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:678:14]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:27:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:89:43]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5]
+    [at eval (eval at create (C:\applibreria\smart-library\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:15:1)]
+    [at C:\applibreria\smart-library\node_modules\enhanced-resolve\lib\Resolver.js:739:5] {
+  details: "resolve 'tailwindcss' in 'C:\\applibreria'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: C:\\applibreria\\package.json (relative path: .)\n' +
+    '    resolve as module\n' +
+    '      looking for modules in C:\\applibreria\\node_modules\n' +
+    '        single file module\n' +
+    '          using description file: C:\\applibreria\\package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    '            .css\n' +
+    "              C:\\applibreria\\node_modules\\tailwindcss.css doesn't exist\n" +
+    "        C:\\applibreria\\node_modules\\tailwindcss doesn't exist\n" +
+    "      C:\\node_modules doesn't exist or is not a directory"
+}
