@@ -5,6 +5,8 @@ import { useParams, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 import { EditLocation } from "./EditLocation";
 
+
+
 type Book = {
   id: string;
   title: string;
